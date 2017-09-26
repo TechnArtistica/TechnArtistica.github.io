@@ -1,0 +1,204 @@
+
+/* * {
+    border: 1px solid blue;
+}*/
+
+/* Universal */
+navbar {
+    position: fixed;
+}
+
+.footer {
+    margin-top: 0px;
+    min-height: 8em;
+    min-width: 100%;
+    /* background-color: #4d79ff; */
+    text-align: center;
+}
+body {
+    /*background-color: #eaf3fb;*/
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.btn {
+    letter-spacing: .04em;
+    font-weight: 700;
+
+}
+
+.about, .contact, .gallery, .footer {
+    background-color: lightskyblue;
+
+}
+.footer {
+    padding-top: 3em;
+}
+table {
+
+}
+
+.thead {
+    text-decoration: underline;
+}
+
+thead, th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+th {
+    font-size: 1.5em;
+}
+
+/*.navbar-inverse {
+    background-color: #0039e6;
+}*/
+.jumbotron {
+    /*background-color: ;*/
+    max-height:24em;
+}
+
+h1, h2, h3,  h4, h5, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+li {
+   /*text-align: center; */
+    font-size: 1em;
+}
+
+/* Home page */
+
+.welcome {
+    /*background-image: url(https://source.unsplash.com/wkZjjrcl9oo); */
+    background-image: url(https://source.unsplash.com/12dXKDujs40);
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    max-height: 24em;
+    color: #f2f2f2;
+    margin-bottom: 0;
+
+}
+/*.transBox {
+    text-align:center;
+    max-margin: 1em;
+    background: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    max-height: 50%;
+}
+.transBox h1, p {
+    margin: .5em;
+    font-weight: bold;
+    color: #133453;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.4);
+}*/
+
+.grey {
+    /*background-color: #e6ecff; */
+}
+.home {
+    width: 90%;
+
+}
+.planner {
+    margin-top: 2em;
+    width: 100%;
+    padding: 1em;
+    /*background-color: white; */
+ /*   background-color: #e6ecff;*/
+    border: none;
+}
+.plan {
+    border: none;
+}
+
+.pink, .purple {
+    /*border: 3px solid black;*/
+    /*max-height: 45em;*/
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+/*.current {
+    text-align: center;
+}*/
+.events {
+    margin: 2rem 0 2rem 0;
+    width: 100%;
+}
+
+video {
+    height: 22em;
+    width: 22em;
+}
+
+/* About Page */
+
+.about {
+    text-align: center;
+    max-height: 22em;
+}
+
+
+.jr {
+    height: 50rem;
+}
+
+/* Contact Us */
+
+.answer {
+
+}
+/*Services Page */
+
+.service {
+    min-height: 28em;
+    /*background-image: url("../../images/horseShow3.png");*/
+    /*background-image: url("https://source.unsplash.com/ilox07iZ5iE");*/
+    background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2l/bg/p02lbgx5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: top;
+    padding-top: 1em;
+}
+
+.services {
+    margin-top: 3em;
+    text-align: center;
+    color: #f2f2f2;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+.service, .lesson, .summer, .train, .boarding {
+    margin-bottom: 6em;
+}
+
+.lessons, .camp, .training, .barn {
+    max-height: 50rem;
+    z-index:-1;
+    padding: 1em;
+}
+
+.barn {
+    width: 70rem;
+}
+
+#trot {
+
+}
+
+@media only screen and (max-width: 750px) {
+    .learn, .fun, .ride, .live {
+        display: none;
+    }
+}
